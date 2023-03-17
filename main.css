@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    padding-right: 24px;   
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: larger;
+}
+
+header h1,
+section h2,
+section h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+}
+
+header{
+    background-color: rgb(145, 65, 0);
+    color: white;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+#conhecer .container img{
+    height: 400px;
+}
+
+#conhecer .container {
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0px;
+}
+
+#conhecer .section {
+    padding-left: 16px;
+    font-weight: normal;
+}
+
+#conhecer .section h2,
+#contato h2 {
+    font-size:xx-large;
+    padding: 8px 0px;
+    color: rgb(145, 65, 0);
+}
+
+#conhecer .section p {
+    font-weight:normal;
+    font-size: medium;
+    padding: 8px 0px;
+}
+
+
+#contato .container {
+    display: block;
+}
+
+#contato .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato h3 {
+    margin: 16px 0px;
+    color: rgb(145, 65, 0);
+    font-size: x-large;
+}
+
+form input, button, textarea {
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+}
+
+#contato form button {
+    background-color: rgb(145, 65, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contato form button:hover {
+    background-color: rgb(163, 102, 53);
+}
+
+#contato form textarea {
+    height: 240px;
+    resize: none;
+}
+
+input:focus, 
+textarea:focus {
+    outline-color: rgb(145, 65, 0);
+}
+
+#contato li {
+    display: inline;
+    padding: 0px 8px 0px 0px;
+}
+
+#contato li a {
+    text-decoration: none;
+}
+
+#contato a{
+    text-decoration: none;
+    color: rgb(163, 102, 53);
+}
+
+#contato img {
+    height: 32px;
+}
+
+footer {
+    background-color: rgb(145, 65, 0);
+    color: white;
+    font-weight: normal;
+    padding: 8px 0px;
+    margin-top: 16px;
+}
